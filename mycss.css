@@ -1,0 +1,19 @@
+.pagetitle {font-size: 50px; margin: 0}
+
+ul {list-style-type: square}
+ul ul {list-style-type: disc}
+ul ul ul {list-style-type: circle}
+
+a:link {color: blue}
+a:visited {color: blue}
+a:hover {color: red}
+a:active {color: red}
+
+hr {color: red; background-color: red; height:3px; width:100% }
+ol {list-style-type: upper-roman}
+p, li {font-family: Western, fantasy; font-size: 25px} 
+
+header {background-image: url(images/xll.jpg); padding: 20px; color : white; background-repeat: "no-repeat"}
+
+
+
