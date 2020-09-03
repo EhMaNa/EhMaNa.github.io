@@ -10,6 +10,15 @@
     $(this).removeClass("floating-label-form-group-with-focus");
   });
 
+ 
+   var pc = document.getElementById('name').value;
+   var ec = document.getElementById('phone').value;
+   var c = document.getElementById('message').value;
+  if (pc||ec||c === "") {
+      alert('Please Fill All Fields');
+   }
+  
+
   // Show the navbar when the page is scrolled up
   var MQL = 992;
 
