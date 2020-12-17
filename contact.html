@@ -44,7 +44,7 @@ a:hover{color:lightskyblue;}
         <div class="row">
             <div class="col-md-10 col-lg-8 mx-auto">
                 <p>Have questions, comments or feedbacks? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-                <form id="contactForm" name="sentMessage" novalidate="validate" action="mailto:raphpopeyetmnt@gmail.com">
+                <form id="contactForm" name="sentMessage" novalidate="validate" action = "" onsubmit= "fillAll()">
                     <div class="control-group">
                         <div class="form-group floating-label-form-group controls"><label>Name</label><input class="form-control" type="text" required="" placeholder="Name" id="name"><small class="form-text text-danger help-block"></small></div>
                     </div>
@@ -55,7 +55,7 @@ a:hover{color:lightskyblue;}
                         <div class="form-group floating-label-form-group controls mb-3"><label>Message</label><textarea class="form-control" rows="5" required="" placeholder="Message" id="message" data-validation-required-message="Please enter a message."></textarea><small class="form-text text-danger help-block"></small></div>
                     </div>
                     <div id="success"></div>
-                   <div class="form-group"><button class="btn btn-primary" type="submit" id="sendMessageButton" onclick="fillAll()">Send</button></div>
+                   <div class="form-group"><button class="btn btn-primary" type="submit" id="sendMessageButton">Send</button></div>
                 </form>
             </div>
         </div>
@@ -80,6 +80,7 @@ a:hover{color:lightskyblue;}
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/clean-blog.js"></script>
+    <script src="assets/js/my.js"></script>
 </body>
 
 </html>
