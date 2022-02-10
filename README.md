@@ -1,5 +1,5 @@
 # EhMaNa's FanSite 
-This is a website created with [Bootstrap Studio](https://bootstrapstudio.io)
+This is a website created with `Bootstrap Studio`
 
 This FanSite was created with Liverpool Football Club in mind
 
