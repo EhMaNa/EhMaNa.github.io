@@ -3,7 +3,7 @@ This is a website created with `Bootstrap Studio`
 
 This FanSite was created with Liverpool Football Club in mind
 
-Open [Ehmana's Webopaedia](https://ehmana.github.io/Ehmana%20Workshop.html)
+Open [Ehmana's Webopaedia](https://ehmana.github.io/Ehmana%20Workshop.html) on your web browser
 To check out this fansite and also find out more info about it
 
 ## Learn More
